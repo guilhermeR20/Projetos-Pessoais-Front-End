@@ -67,3 +67,29 @@ section.sobre{
   width: 20px;
   margin: 20px 0;
 }
+
+.texto-sobre{
+  margin-top: 100px;
+}
+
+.texto-sobre h1{
+  font-size: 50px;
+}
+
+.texto-sobre p{
+  margin:20px 0;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  max-width: 800px;
+}
+
+.texto-sobre button{
+  border: 0;
+  background-color: #017143;
+  color: white;
+  border-radius:8px;
+  width: 100px;
+  height:30px;
+  cursor: pointer;
+}
