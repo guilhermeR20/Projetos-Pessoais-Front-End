@@ -1,0 +1,44 @@
+body{
+  width: 100%;
+  margin: auto;
+  font-family: Arial;
+  background-image: url(img/bg.png);
+  background-repeat : no-repeat;
+  background-position: center;
+  background-size: 2000px 1400px;
+  color: black;
+}
+
+img {
+  width: 800px;
+  height: 450px;
+}
+
+main{
+  background: #00000044;
+  padding: 5px 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.logo{
+  text-align: center;
+}
+
+.picture-name{
+  text-align: center;
+}
+
+.description1{
+  text-align: center;
+}
+
+.description2{
+ text-align: center;
+}
+
+.data{
+  background: #00000030;
+  padding: 3px 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
