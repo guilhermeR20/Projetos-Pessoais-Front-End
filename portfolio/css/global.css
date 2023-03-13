@@ -4,6 +4,20 @@ body{
     color: #141414;
 }
 
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .dark-mode a {
+    color: #fff;
+  }
+  
+  .dark-mode button {
+    background-color: #fff;
+    color: #222;
+  }
+
 html { 
     scroll-behavior: smooth
   }
