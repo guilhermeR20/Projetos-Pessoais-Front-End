@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f2ff;
+    min-height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Arial";
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+h1, h2{
+    font-size: 3rem;
+    color: #315191;
+    text-align: center;
+    line-height: 1.2;
+}
+
+h1::before{
+    content: "📧";
+    display: block;
+}
+
+.formulario{
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.125rem;
+}
+
+form{
+    display: block;
+    width: 100%;
+}

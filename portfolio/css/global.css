@@ -4,7 +4,7 @@ body{
     color: #141414;
 }
 
-.dark-mode {
+/* .dark-mode {
     background-color: #222;
     color: #fff;
   }
@@ -16,7 +16,7 @@ body{
   .dark-mode button {
     background-color: #fff;
     color: #222;
-  }
+  }*/
 
 html { 
     scroll-behavior: smooth
