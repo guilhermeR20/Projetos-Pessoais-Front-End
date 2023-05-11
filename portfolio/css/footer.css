@@ -21,10 +21,12 @@
 
 .footer-contato li{
     font-weight: bold;
-    font-size:  2.25rem;
+    font-size:  1.5rem;
     line-height: 1.1;
     color: #ffffff;
     margin-bottom: 30px;
+    padding-left: 2.2rem;
+    position: relative;
 }
 
 .footer-contato li a {
@@ -46,3 +48,16 @@
         font-size: 0.875rem;
     }
 }
+
+.footer-contato{
+    display: inline-block;
+}
+
+.icones{
+    position: absolute;
+    top: 0.15rem;
+    left: 0;
+    width: 1.75rem;
+    height: 1.75rem;
+    text-align: center;
+  }
