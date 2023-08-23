@@ -20,6 +20,10 @@
 
 }
 
+.descricao{
+    font-size: 0.75rem;
+}
+
 .experiencia-texto strong{
     color: #141414;
 }
