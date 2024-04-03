@@ -1,7 +1,7 @@
-body{
-    font-family: 'Fira Sans', Arial, sans-serif;
-    margin: 0px;
-    color: #141414;
+body {
+  font-family: "Fira Sans", Arial, sans-serif;
+  margin: 0px;
+  color: #141414;
 }
 
 /* .dark-mode {
@@ -18,50 +18,51 @@ body{
     color: #222;
   }*/
 
-html { 
-    scroll-behavior: smooth
-  }
-
-h1, h2, h3, p{
-    margin: 0px;
+html {
+  scroll-behavior: smooth;
 }
 
-ul{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
 }
 
-img{
-    max-width: 100%;
-    display: block;
-    height: auto;
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
-.subtitulo{
-    font-size: 6rem;
-    line-height: 1;
-    word-break: break-all;
-    text-transform: uppercase;
-    max-width: 4ch;
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.subtitulo {
+  font-size: 6rem;
+  line-height: 1;
+  word-break: break-all;
+  text-transform: uppercase;
+  max-width: 4ch;
 }
 
 @media (max-width: 800px) {
-    .subtitulo{
-        font-size: 3rem;
-        text-transform: capitalize;
-        max-width: initial !important;
-    }
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
 }
 
-.link-acesso{
-  text-decoration:none;
-  font-size: 0.8rem;
+.link-acesso {
+  text-decoration: none;
+  font-size: 0.85rem;
   color: #171414;
 }
 
 .link-acesso:hover {
   color: #0f3bbd;
 }
-
